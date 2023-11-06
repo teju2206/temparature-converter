@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <header>
+    <h1>Temperature Converter</h1>
+  </header>
+  <main>
+    <div class="converter">
+      <input type="number" id="inputTemp" placeholder="Enter temperature" />
+      <select id="inputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+      <button id="convertButton">Convert</button>
+      <select id="outputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+      <p id="result"></p>
+    </div>
+    <div class="measurement-container">
+      <img src="https://media.istockphoto.com/id/637409946/photo/thermometer-on-snow-shows-low-temperatures-under-zero.jpg?s=612x612&w=0&k=20&c=fmRJtO3RRIMA6TV3JI93CSlteBTrQI1PAjmWaRLiBlA=" alt="Temperature Measuring Equipment" id="measurementImage" />
+      <p id="displayedValue"></p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
